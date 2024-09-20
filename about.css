@@ -577,7 +577,7 @@ body {
   transition: 0.5s;
   }
   
-  #section1_data_btn:after {
+  #section1_data_btn:after {  
   content: '»';
   font-size: 40px;
   position: absolute;
