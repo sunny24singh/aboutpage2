@@ -577,7 +577,7 @@ body {
   transition: 0.5s;
   }
   
-  #section1_data_btn:after {  
+  #section1_data_btn:after {   
   content: '»';
   font-size: 40px;
   position: absolute;
@@ -595,4 +595,265 @@ body {
   #section1_data_btn:hover:after {
   opacity: 1;
   right: 15px;
+  }
+
+
+
+
+  /* ============================= about section 3 css ======================== */
+
+
+#section3 {
+  margin-top: 150px;
+}
+
+#section_head_text {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #0096FF;
+  text-underline-offset: 20px;
+}
+
+#section__text {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#span_1 {
+  color: #0096FF;
+}
+
+#section3_text1 {
+  width: 60%;
+  text-align: center;
+}
+
+#main_section3 {
+  margin-top: 0px;
+  height: 500px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+.section3_data1 {
+  height: 400px;
+  width: 300px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data1:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+
+
+.image-container {
+  overflow: hidden;
+  display: inline-block;
+}
+
+#section2_img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+ 
+}
+
+.image-container:hover #section2_img1 {
+  transform: scale(1.1);
+}
+
+
+
+#section3_text2 {
+  font-size: 22px;
+  margin-top: 8px;
+  margin-left: 15px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+
+}
+
+#section3_text3 {
+  margin-top: -10px;
+  margin-left: 15px;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+#section3_btn {
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #0096FF;
+  margin-top: 10px;
+  transition: background-color 0.3s ease,
+              color 0.3s ease
+}
+
+#section3_btn:hover {
+   background-color: #0096FF;
+   border: 1px solid rgb(0, 0, 0);
+   color: white;
+}
+
+.section3_data2 {
+  height: 400px; 
+  width: 300px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data2:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;}
+
+.section3_data3 {
+  height: 400px;
+  width: 300px;
+  /* background-color: #ffffff; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data3:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+
+
+  /* ============================= about section 4 css ======================== */
+
+
+
+
+
+
+  #main_div_section4 {
+    /* background-color: black; */
+    margin-top: 80px;
+  }
+
+  #section4_text {
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 700;
+  }
+
+
+  #section4_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .section4_data1 {
+    height: 300px;
+    width: 300px;
+    /* background-color: #51ff00; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    
+  }
+
+
+  .section4_data2 {
+    height: 300px;
+    width: 300px;
+    /* background-color: #ff00b3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section4_data3 {
+    height: 300px;
+    width: 300px;
+    /* background-color: #0096FF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #section4_icon1 {
+    height: 215px;
+    width: 215px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+
+  #section4_icon1:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;   
+  }
+
+  #section4_icon2 {
+ 
+      height: 215px;
+      width: 215px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #section4_icon3 {
+    height: 215px;
+    width: 215px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #section4_icon {
+    font-size: 150px;
+    color: #0096FF;
+  }
+
+  #section4_text2 {
+    color: #0096FF;
+    font-size: 30px;
+    font-weight: 600;
   }

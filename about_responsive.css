@@ -445,4 +445,103 @@
     
   }
 
-  /* gfg */  
+
+
+
+
+
+
+/* ============================= about section 3 responsive css ======================== */
+
+
+@media screen and (max-width: 650px) and (orientation : portrait)  {
+  #section3_text1 {
+    width: 90%;
+    text-align: center;
+}
+
+#main_section3 {
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.section3_data1 {
+  height: 400px;
+  width: 270px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data2 {
+  height: 400px;
+  width: 270px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data3 {
+  height: 400px;
+  width: 270px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+}
+
+
+@media screen and (max-width: 650px) and (orientation : landscape)  {
+  #section3_text1 {
+    width: 90%;
+    text-align: center;
+}
+
+#main_section3 {
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.section3_data1 {
+  height: 400px;
+  width: 270px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data2 {
+  height: 400px;
+  width: 270px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+.section3_data3 {
+  height: 400px;
+  width: 270px;
+  /* background-color: #0096FF; */
+  border: 1px solid rgb(165, 177, 180);
+  transition: box-shadow 0.3s ease;
+}
+
+}
+
+
+

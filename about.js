@@ -40,4 +40,3 @@ drop_close.addEventListener("click" , () => {
 })
 
 
-console.log("sunny ");
